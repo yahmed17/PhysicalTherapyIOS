@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB2A51201858B0D7008DE7C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2A511F1858B0D7008DE7C6 /* Foundation.framework */; };
+		CB2A51221858B0D7008DE7C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2A51211858B0D7008DE7C6 /* CoreGraphics.framework */; };
+		CB2A51241858B0D7008DE7C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2A51231858B0D7008DE7C6 /* UIKit.framework */; };
+		CB2A512A1858B0D7008DE7C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB2A51281858B0D7008DE7C6 /* InfoPlist.strings */; };
+		CB2A512C1858B0D7008DE7C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A512B1858B0D7008DE7C6 /* main.m */; };
+		CB2A51301858B0D7008DE7C6 /* PTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A512F1858B0D7008DE7C6 /* PTAppDelegate.m */; };
+		CB2A51331858B0D7008DE7C6 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2A51311858B0D7008DE7C6 /* Main_iPhone.storyboard */; };
+		CB2A51361858B0D7008DE7C6 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2A51341858B0D7008DE7C6 /* Main_iPad.storyboard */; };
+		CB2A513B1858B0D7008DE7C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2A513A1858B0D7008DE7C6 /* Images.xcassets */; };
+		CB2A51421858B0D7008DE7C6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2A51411858B0D7008DE7C6 /* XCTest.framework */; };
+		CB2A51431858B0D7008DE7C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2A511F1858B0D7008DE7C6 /* Foundation.framework */; };
+		CB2A51441858B0D7008DE7C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2A51231858B0D7008DE7C6 /* UIKit.framework */; };
+		CB2A514C1858B0D7008DE7C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB2A514A1858B0D7008DE7C6 /* InfoPlist.strings */; };
+		CB2A514E1858B0D7008DE7C6 /* PhysicalTherapyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A514D1858B0D7008DE7C6 /* PhysicalTherapyTests.m */; };
+		CB2A515E1858B230008DE7C6 /* PTExerciseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A51591858B230008DE7C6 /* PTExerciseModel.m */; };
+		CB2A515F1858B230008DE7C6 /* PTExerciseRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A515B1858B230008DE7C6 /* PTExerciseRecordModel.m */; };
+		CB2A51601858B230008DE7C6 /* PTTherapyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A515D1858B230008DE7C6 /* PTTherapyModel.m */; };
+		CB2A516C1858B4D6008DE7C6 /* CommandExecuteParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A51631858B4D6008DE7C6 /* CommandExecuteParameter.m */; };
+		CB2A516D1858B4D6008DE7C6 /* CommandExecuteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A51651858B4D6008DE7C6 /* CommandExecuteRequest.m */; };
+		CB2A516E1858B4D6008DE7C6 /* CommandExecuteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A51671858B4D6008DE7C6 /* CommandExecuteResponse.m */; };
+		CB2A516F1858B4D6008DE7C6 /* HTTRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A51691858B4D6008DE7C6 /* HTTRequest.m */; };
+		CB2A51701858B4D6008DE7C6 /* TherapyResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A516B1858B4D6008DE7C6 /* TherapyResponse.m */; };
+		CB2A51781858B5A2008DE7C6 /* AddExerciseRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A51731858B5A2008DE7C6 /* AddExerciseRecordViewController.m */; };
+		CB2A51791858B5A2008DE7C6 /* ExerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A51751858B5A2008DE7C6 /* ExerciseViewController.m */; };
+		CB2A517A1858B5A2008DE7C6 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A51771858B5A2008DE7C6 /* VideoViewController.m */; };
+		CB2A517F1858B69E008DE7C6 /* PTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A517C1858B69E008DE7C6 /* PTViewController.m */; };
+		CB2A51801858B69E008DE7C6 /* TherapyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A517E1858B69E008DE7C6 /* TherapyViewController.m */; };
+		CB2A51821858B702008DE7C6 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2A51811858B702008DE7C6 /* MediaPlayer.framework */; };
+		CB2A51DB1858BB56008DE7C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2A51D91858BB56008DE7C6 /* Main.storyboard */; };
+		CB2A51DE1858BCD8008DE7C6 /* EpicCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2A51DD1858BCD8008DE7C6 /* EpicCommand.m */; };
+		CB3C73C4185A09F500602AF5 /* PTRecordHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3C73C3185A09F500602AF5 /* PTRecordHeaderCell.m */; };
+		CB3C73C7185A45EC00602AF5 /* ExerciseRecordsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3C73C6185A45EC00602AF5 /* ExerciseRecordsResponse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB2A51451858B0D7008DE7C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB2A51141858B0D7008DE7C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB2A511B1858B0D7008DE7C6;
+			remoteInfo = PhysicalTherapy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB2A511C1858B0D7008DE7C6 /* PhysicalTherapy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicalTherapy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2A511F1858B0D7008DE7C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB2A51211858B0D7008DE7C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB2A51231858B0D7008DE7C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB2A51271858B0D7008DE7C6 /* PhysicalTherapy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhysicalTherapy-Info.plist"; sourceTree = "<group>"; };
+		CB2A51291858B0D7008DE7C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB2A512B1858B0D7008DE7C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB2A512D1858B0D7008DE7C6 /* PhysicalTherapy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhysicalTherapy-Prefix.pch"; sourceTree = "<group>"; };
+		CB2A512E1858B0D7008DE7C6 /* PTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTAppDelegate.h; sourceTree = "<group>"; };
+		CB2A512F1858B0D7008DE7C6 /* PTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTAppDelegate.m; sourceTree = "<group>"; };
+		CB2A51321858B0D7008DE7C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CB2A51351858B0D7008DE7C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CB2A513A1858B0D7008DE7C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB2A51401858B0D7008DE7C6 /* PhysicalTherapyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicalTherapyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2A51411858B0D7008DE7C6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CB2A51491858B0D7008DE7C6 /* PhysicalTherapyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhysicalTherapyTests-Info.plist"; sourceTree = "<group>"; };
+		CB2A514B1858B0D7008DE7C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB2A514D1858B0D7008DE7C6 /* PhysicalTherapyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhysicalTherapyTests.m; sourceTree = "<group>"; };
+		CB2A51581858B230008DE7C6 /* PTExerciseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTExerciseModel.h; sourceTree = "<group>"; };
+		CB2A51591858B230008DE7C6 /* PTExerciseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTExerciseModel.m; sourceTree = "<group>"; };
+		CB2A515A1858B230008DE7C6 /* PTExerciseRecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTExerciseRecordModel.h; sourceTree = "<group>"; };
+		CB2A515B1858B230008DE7C6 /* PTExerciseRecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTExerciseRecordModel.m; sourceTree = "<group>"; };
+		CB2A515C1858B230008DE7C6 /* PTTherapyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTTherapyModel.h; sourceTree = "<group>"; };
+		CB2A515D1858B230008DE7C6 /* PTTherapyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTTherapyModel.m; sourceTree = "<group>"; };
+		CB2A51621858B4D6008DE7C6 /* CommandExecuteParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandExecuteParameter.h; sourceTree = "<group>"; };
+		CB2A51631858B4D6008DE7C6 /* CommandExecuteParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandExecuteParameter.m; sourceTree = "<group>"; };
+		CB2A51641858B4D6008DE7C6 /* CommandExecuteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandExecuteRequest.h; sourceTree = "<group>"; };
+		CB2A51651858B4D6008DE7C6 /* CommandExecuteRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandExecuteRequest.m; sourceTree = "<group>"; };
+		CB2A51661858B4D6008DE7C6 /* CommandExecuteResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandExecuteResponse.h; sourceTree = "<group>"; };
+		CB2A51671858B4D6008DE7C6 /* CommandExecuteResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandExecuteResponse.m; sourceTree = "<group>"; };
+		CB2A51681858B4D6008DE7C6 /* HTTRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTRequest.h; sourceTree = "<group>"; };
+		CB2A51691858B4D6008DE7C6 /* HTTRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTRequest.m; sourceTree = "<group>"; };
+		CB2A516A1858B4D6008DE7C6 /* TherapyResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TherapyResponse.h; sourceTree = "<group>"; };
+		CB2A516B1858B4D6008DE7C6 /* TherapyResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TherapyResponse.m; sourceTree = "<group>"; };
+		CB2A51721858B5A2008DE7C6 /* AddExerciseRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddExerciseRecordViewController.h; sourceTree = "<group>"; };
+		CB2A51731858B5A2008DE7C6 /* AddExerciseRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddExerciseRecordViewController.m; sourceTree = "<group>"; };
+		CB2A51741858B5A2008DE7C6 /* ExerciseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseViewController.h; sourceTree = "<group>"; };
+		CB2A51751858B5A2008DE7C6 /* ExerciseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseViewController.m; sourceTree = "<group>"; };
+		CB2A51761858B5A2008DE7C6 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		CB2A51771858B5A2008DE7C6 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		CB2A517B1858B69E008DE7C6 /* PTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTViewController.h; sourceTree = "<group>"; };
+		CB2A517C1858B69E008DE7C6 /* PTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTViewController.m; sourceTree = "<group>"; };
+		CB2A517D1858B69E008DE7C6 /* TherapyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TherapyViewController.h; sourceTree = "<group>"; };
+		CB2A517E1858B69E008DE7C6 /* TherapyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TherapyViewController.m; sourceTree = "<group>"; };
+		CB2A51811858B702008DE7C6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CB2A51DA1858BB56008DE7C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB2A51DC1858BCD8008DE7C6 /* EpicCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpicCommand.h; sourceTree = "<group>"; };
+		CB2A51DD1858BCD8008DE7C6 /* EpicCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpicCommand.m; sourceTree = "<group>"; };
+		CB3C73C2185A09F500602AF5 /* PTRecordHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTRecordHeaderCell.h; sourceTree = "<group>"; };
+		CB3C73C3185A09F500602AF5 /* PTRecordHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTRecordHeaderCell.m; sourceTree = "<group>"; };
+		CB3C73C5185A45EC00602AF5 /* ExerciseRecordsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseRecordsResponse.h; sourceTree = "<group>"; };
+		CB3C73C6185A45EC00602AF5 /* ExerciseRecordsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseRecordsResponse.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB2A51191858B0D7008DE7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2A51821858B702008DE7C6 /* MediaPlayer.framework in Frameworks */,
+				CB2A51221858B0D7008DE7C6 /* CoreGraphics.framework in Frameworks */,
+				CB2A51241858B0D7008DE7C6 /* UIKit.framework in Frameworks */,
+				CB2A51201858B0D7008DE7C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2A513D1858B0D7008DE7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2A51421858B0D7008DE7C6 /* XCTest.framework in Frameworks */,
+				CB2A51441858B0D7008DE7C6 /* UIKit.framework in Frameworks */,
+				CB2A51431858B0D7008DE7C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB2A51131858B0D7008DE7C6 = {
+			isa = PBXGroup;
+			children = (
+				CB2A51251858B0D7008DE7C6 /* PhysicalTherapy */,
+				CB2A51471858B0D7008DE7C6 /* PhysicalTherapyTests */,
+				CB2A511E1858B0D7008DE7C6 /* Frameworks */,
+				CB2A511D1858B0D7008DE7C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB2A511D1858B0D7008DE7C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB2A511C1858B0D7008DE7C6 /* PhysicalTherapy.app */,
+				CB2A51401858B0D7008DE7C6 /* PhysicalTherapyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB2A511E1858B0D7008DE7C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB2A51811858B702008DE7C6 /* MediaPlayer.framework */,
+				CB2A511F1858B0D7008DE7C6 /* Foundation.framework */,
+				CB2A51211858B0D7008DE7C6 /* CoreGraphics.framework */,
+				CB2A51231858B0D7008DE7C6 /* UIKit.framework */,
+				CB2A51411858B0D7008DE7C6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB2A51251858B0D7008DE7C6 /* PhysicalTherapy */ = {
+			isa = PBXGroup;
+			children = (
+				CB2A51711858B5A2008DE7C6 /* ViewController */,
+				CB2A51611858B4D6008DE7C6 /* WebService */,
+				CB2A51571858B230008DE7C6 /* Model */,
+				CB2A512E1858B0D7008DE7C6 /* PTAppDelegate.h */,
+				CB2A512F1858B0D7008DE7C6 /* PTAppDelegate.m */,
+				CB2A51311858B0D7008DE7C6 /* Main_iPhone.storyboard */,
+				CB2A51341858B0D7008DE7C6 /* Main_iPad.storyboard */,
+				CB2A51D91858BB56008DE7C6 /* Main.storyboard */,
+				CB2A513A1858B0D7008DE7C6 /* Images.xcassets */,
+				CB2A51261858B0D7008DE7C6 /* Supporting Files */,
+			);
+			path = PhysicalTherapy;
+			sourceTree = "<group>";
+		};
+		CB2A51261858B0D7008DE7C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB2A51271858B0D7008DE7C6 /* PhysicalTherapy-Info.plist */,
+				CB2A51281858B0D7008DE7C6 /* InfoPlist.strings */,
+				CB2A512B1858B0D7008DE7C6 /* main.m */,
+				CB2A512D1858B0D7008DE7C6 /* PhysicalTherapy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB2A51471858B0D7008DE7C6 /* PhysicalTherapyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB2A514D1858B0D7008DE7C6 /* PhysicalTherapyTests.m */,
+				CB2A51481858B0D7008DE7C6 /* Supporting Files */,
+			);
+			path = PhysicalTherapyTests;
+			sourceTree = "<group>";
+		};
+		CB2A51481858B0D7008DE7C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB2A51491858B0D7008DE7C6 /* PhysicalTherapyTests-Info.plist */,
+				CB2A514A1858B0D7008DE7C6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB2A51571858B230008DE7C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB2A51581858B230008DE7C6 /* PTExerciseModel.h */,
+				CB2A51591858B230008DE7C6 /* PTExerciseModel.m */,
+				CB2A515A1858B230008DE7C6 /* PTExerciseRecordModel.h */,
+				CB2A515B1858B230008DE7C6 /* PTExerciseRecordModel.m */,
+				CB2A515C1858B230008DE7C6 /* PTTherapyModel.h */,
+				CB2A515D1858B230008DE7C6 /* PTTherapyModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB2A51611858B4D6008DE7C6 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				CB2A51DC1858BCD8008DE7C6 /* EpicCommand.h */,
+				CB2A51DD1858BCD8008DE7C6 /* EpicCommand.m */,
+				CB2A51621858B4D6008DE7C6 /* CommandExecuteParameter.h */,
+				CB2A51631858B4D6008DE7C6 /* CommandExecuteParameter.m */,
+				CB2A51641858B4D6008DE7C6 /* CommandExecuteRequest.h */,
+				CB2A51651858B4D6008DE7C6 /* CommandExecuteRequest.m */,
+				CB2A51661858B4D6008DE7C6 /* CommandExecuteResponse.h */,
+				CB2A51671858B4D6008DE7C6 /* CommandExecuteResponse.m */,
+				CB2A51681858B4D6008DE7C6 /* HTTRequest.h */,
+				CB2A51691858B4D6008DE7C6 /* HTTRequest.m */,
+				CB2A516A1858B4D6008DE7C6 /* TherapyResponse.h */,
+				CB2A516B1858B4D6008DE7C6 /* TherapyResponse.m */,
+				CB3C73C5185A45EC00602AF5 /* ExerciseRecordsResponse.h */,
+				CB3C73C6185A45EC00602AF5 /* ExerciseRecordsResponse.m */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		CB2A51711858B5A2008DE7C6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB2A517B1858B69E008DE7C6 /* PTViewController.h */,
+				CB2A517C1858B69E008DE7C6 /* PTViewController.m */,
+				CB2A517D1858B69E008DE7C6 /* TherapyViewController.h */,
+				CB2A517E1858B69E008DE7C6 /* TherapyViewController.m */,
+				CB2A51721858B5A2008DE7C6 /* AddExerciseRecordViewController.h */,
+				CB2A51731858B5A2008DE7C6 /* AddExerciseRecordViewController.m */,
+				CB2A51741858B5A2008DE7C6 /* ExerciseViewController.h */,
+				CB2A51751858B5A2008DE7C6 /* ExerciseViewController.m */,
+				CB2A51761858B5A2008DE7C6 /* VideoViewController.h */,
+				CB2A51771858B5A2008DE7C6 /* VideoViewController.m */,
+				CB3C73C2185A09F500602AF5 /* PTRecordHeaderCell.h */,
+				CB3C73C3185A09F500602AF5 /* PTRecordHeaderCell.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB2A511B1858B0D7008DE7C6 /* PhysicalTherapy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2A51511858B0D7008DE7C6 /* Build configuration list for PBXNativeTarget "PhysicalTherapy" */;
+			buildPhases = (
+				CB2A51181858B0D7008DE7C6 /* Sources */,
+				CB2A51191858B0D7008DE7C6 /* Frameworks */,
+				CB2A511A1858B0D7008DE7C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhysicalTherapy;
+			productName = PhysicalTherapy;
+			productReference = CB2A511C1858B0D7008DE7C6 /* PhysicalTherapy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB2A513F1858B0D7008DE7C6 /* PhysicalTherapyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2A51541858B0D7008DE7C6 /* Build configuration list for PBXNativeTarget "PhysicalTherapyTests" */;
+			buildPhases = (
+				CB2A513C1858B0D7008DE7C6 /* Sources */,
+				CB2A513D1858B0D7008DE7C6 /* Frameworks */,
+				CB2A513E1858B0D7008DE7C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB2A51461858B0D7008DE7C6 /* PBXTargetDependency */,
+			);
+			name = PhysicalTherapyTests;
+			productName = PhysicalTherapyTests;
+			productReference = CB2A51401858B0D7008DE7C6 /* PhysicalTherapyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB2A51141858B0D7008DE7C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Atrius Health";
+				TargetAttributes = {
+					CB2A513F1858B0D7008DE7C6 = {
+						TestTargetID = CB2A511B1858B0D7008DE7C6;
+					};
+				};
+			};
+			buildConfigurationList = CB2A51171858B0D7008DE7C6 /* Build configuration list for PBXProject "PhysicalTherapy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB2A51131858B0D7008DE7C6;
+			productRefGroup = CB2A511D1858B0D7008DE7C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB2A511B1858B0D7008DE7C6 /* PhysicalTherapy */,
+				CB2A513F1858B0D7008DE7C6 /* PhysicalTherapyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB2A511A1858B0D7008DE7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2A51361858B0D7008DE7C6 /* Main_iPad.storyboard in Resources */,
+				CB2A51DB1858BB56008DE7C6 /* Main.storyboard in Resources */,
+				CB2A513B1858B0D7008DE7C6 /* Images.xcassets in Resources */,
+				CB2A51331858B0D7008DE7C6 /* Main_iPhone.storyboard in Resources */,
+				CB2A512A1858B0D7008DE7C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2A513E1858B0D7008DE7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2A514C1858B0D7008DE7C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB2A51181858B0D7008DE7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2A51791858B5A2008DE7C6 /* ExerciseViewController.m in Sources */,
+				CB2A516C1858B4D6008DE7C6 /* CommandExecuteParameter.m in Sources */,
+				CB2A51301858B0D7008DE7C6 /* PTAppDelegate.m in Sources */,
+				CB2A516F1858B4D6008DE7C6 /* HTTRequest.m in Sources */,
+				CB2A517F1858B69E008DE7C6 /* PTViewController.m in Sources */,
+				CB2A517A1858B5A2008DE7C6 /* VideoViewController.m in Sources */,
+				CB2A516E1858B4D6008DE7C6 /* CommandExecuteResponse.m in Sources */,
+				CB2A515E1858B230008DE7C6 /* PTExerciseModel.m in Sources */,
+				CB3C73C4185A09F500602AF5 /* PTRecordHeaderCell.m in Sources */,
+				CB2A51DE1858BCD8008DE7C6 /* EpicCommand.m in Sources */,
+				CB2A51701858B4D6008DE7C6 /* TherapyResponse.m in Sources */,
+				CB2A512C1858B0D7008DE7C6 /* main.m in Sources */,
+				CB2A516D1858B4D6008DE7C6 /* CommandExecuteRequest.m in Sources */,
+				CB2A51781858B5A2008DE7C6 /* AddExerciseRecordViewController.m in Sources */,
+				CB2A515F1858B230008DE7C6 /* PTExerciseRecordModel.m in Sources */,
+				CB3C73C7185A45EC00602AF5 /* ExerciseRecordsResponse.m in Sources */,
+				CB2A51801858B69E008DE7C6 /* TherapyViewController.m in Sources */,
+				CB2A51601858B230008DE7C6 /* PTTherapyModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2A513C1858B0D7008DE7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2A514E1858B0D7008DE7C6 /* PhysicalTherapyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB2A51461858B0D7008DE7C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB2A511B1858B0D7008DE7C6 /* PhysicalTherapy */;
+			targetProxy = CB2A51451858B0D7008DE7C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB2A51281858B0D7008DE7C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB2A51291858B0D7008DE7C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB2A51311858B0D7008DE7C6 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB2A51321858B0D7008DE7C6 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CB2A51341858B0D7008DE7C6 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB2A51351858B0D7008DE7C6 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CB2A514A1858B0D7008DE7C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB2A514B1858B0D7008DE7C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB2A51D91858BB56008DE7C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB2A51DA1858BB56008DE7C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB2A514F1858B0D7008DE7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB2A51501858B0D7008DE7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB2A51521858B0D7008DE7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhysicalTherapy/PhysicalTherapy-Prefix.pch";
+				INFOPLIST_FILE = "PhysicalTherapy/PhysicalTherapy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB2A51531858B0D7008DE7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhysicalTherapy/PhysicalTherapy-Prefix.pch";
+				INFOPLIST_FILE = "PhysicalTherapy/PhysicalTherapy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB2A51551858B0D7008DE7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhysicalTherapy.app/PhysicalTherapy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhysicalTherapy/PhysicalTherapy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PhysicalTherapyTests/PhysicalTherapyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CB2A51561858B0D7008DE7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhysicalTherapy.app/PhysicalTherapy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhysicalTherapy/PhysicalTherapy-Prefix.pch";
+				INFOPLIST_FILE = "PhysicalTherapyTests/PhysicalTherapyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB2A51171858B0D7008DE7C6 /* Build configuration list for PBXProject "PhysicalTherapy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2A514F1858B0D7008DE7C6 /* Debug */,
+				CB2A51501858B0D7008DE7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB2A51511858B0D7008DE7C6 /* Build configuration list for PBXNativeTarget "PhysicalTherapy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2A51521858B0D7008DE7C6 /* Debug */,
+				CB2A51531858B0D7008DE7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB2A51541858B0D7008DE7C6 /* Build configuration list for PBXNativeTarget "PhysicalTherapyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2A51551858B0D7008DE7C6 /* Debug */,
+				CB2A51561858B0D7008DE7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB2A51141858B0D7008DE7C6 /* Project object */;
+}
